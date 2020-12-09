@@ -1,2 +1,0 @@
-# crispy-disco
-ayy lmao
