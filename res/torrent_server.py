@@ -23,7 +23,7 @@ def ngrok(port):
 
 if __name__ == '__main__':
     
-    port = 9090
+    port = 10001
 
     thread_torrent = threading.Thread(target = torrent, args=(int(port),))
     thread_ngrok = threading.Thread(target = ngrok, args=(int(port),))
